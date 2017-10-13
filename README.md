@@ -1,4 +1,4 @@
-# Medebelle :: Activities
+# Medbelle :: Weekend Activities
 
 Activities for a healthy weekend!
 
@@ -7,7 +7,7 @@ Activities for a healthy weekend!
 First you need to clone this repository from github:
 
 ```
-git clone git@github.com:rudaporto/medebelle_activities.git
+git clone git@github.com:rudaporto/medbelle_activities.git
 ```
 
 ## Virtualenv
