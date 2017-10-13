@@ -54,4 +54,4 @@ make run_server
 
 ## Open
 
-Finally you can open the [Activities](http://localhost:8089) application.
+Finally you can open the [Activities](http://localhost:8089/weekend/activity) application and login with the admin user.
