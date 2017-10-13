@@ -1,0 +1,4 @@
+Django
+django-material
+Pillow
+django-multipleselectionfield

@@ -99,3 +99,12 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# database
+database/db.sqlite3
+
+# images
+media/media
+
+# PyCharm
+.idea/
