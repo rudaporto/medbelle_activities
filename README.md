@@ -36,6 +36,13 @@ Migrate the database to latest version:
 make migrate_db
 ```
 
+## Create admin
+
+Create the admin user to manage the application:
+
+```
+make create_admin
+```
 
 ## Start
 
@@ -43,14 +50,6 @@ Start the application server:
 
 ```
 make run_server
-```
-
-## Create admin
-
-Create the admin user to manage the application:
-
-```
-make create_admin
 ```
 
 ## Open
