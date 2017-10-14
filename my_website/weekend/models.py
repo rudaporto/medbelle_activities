@@ -65,7 +65,7 @@ class Activity(models.Model):
         choices=WEATHER_CHOICES,
         default='any',
     )
-    image = models.ImageField(blank=True, upload_to=MEDIA_ROOT)
+    image = models.ImageField(blank=True, upload_to='activity_images')
     category = models.CharField(
         max_length=10,
         choices=CATEGORY_CHOICES,

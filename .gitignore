@@ -104,7 +104,7 @@ ENV/
 database/db.sqlite3
 
 # images
-media/media
+media/activity_images
 
 # PyCharm
 .idea/
