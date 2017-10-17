@@ -2,7 +2,6 @@ from django.db import models
 from django.utils import timezone
 from django.utils.safestring import mark_safe
 from my_website.settings import MEDIA_URL
-from my_website.settings import MEDIA_ROOT
 from multipleselectionfield import MultipleSelectionField
 
 
@@ -75,7 +74,8 @@ class Activity(models.Model):
 
     def image_tag(self):
         if self.image:
-            return mark_safe(f'<img src="{MEDIA_URL}/{self.image}" width="150" height="150" />')
+            tag = f'<img src="{MEDIA_URL}/{self.image}" width="150" height="150" />'
+            return mark_safe(tag)
         else:
             return ''
 
